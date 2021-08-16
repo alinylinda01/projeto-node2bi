@@ -24,7 +24,20 @@ https://github.com/alinylinda01/projeto-node2bi.git
 -> npm init -y
 
 ### Instalação de dependencias
+( São tecnologias ultilizadas apenas durante o desenvolvimento do projeto em especifíco )
+npm install nodemon -d (por exemplo)
 
+### Iniciando tecnologia ou scripts utilizando atalhos 
+No´package.json
+
+ 
+"scripts": {
+  "morango": "nodemon server.js"
+  }
+  
+  No prompt voce executa:
+  npm run moprango 
+  
 npm install "NOME DA TECNOLOGIA"
 
 Exemplo: -> npm install express
